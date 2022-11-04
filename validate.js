@@ -3,7 +3,7 @@ function validate()
     var name = document.getElementById("name").value;
     var email = document.getElementById("email").value;
     var contact = document.getElementById("contact").value;
-    var passsword = document.getElementById("password").value;
+    var password = document.getElementById("password").value;
     var dob = document.getElementById("dob").value;
     var address = document.getElementById("address").value;
 
@@ -22,7 +22,7 @@ function validate()
     {
         alert("Enter your contact number");
     }
-    else if(passsword.length == 0)
+    else if(password.length == 0)
     {
         alert("Enter your password");
     }
